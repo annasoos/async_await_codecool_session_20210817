@@ -1,10 +1,13 @@
 const express = require('express');
 const server = express();
+const cors = require("cors");
 const port = 3000;
 
-server.get('/', (req, res) => {
+server.use(cors());
+
+server.get('/api/greet', (req, res) => {
 	setTimeout(() => {
-		res.send('Hello World!')
+		res.json({ msg: "Hello World!"})
 	}, 5000)
 });
 
