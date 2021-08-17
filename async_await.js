@@ -3,7 +3,7 @@ const fetch = require("node-fetch");
 const run = async () => {
 
 	const x = 5;
-	const y = "Anna";
+	const y = "Cica";
 
 	const myFunc = (num) => {
 		const res = num + 5
