@@ -15,8 +15,7 @@ document.getElementById("reqBtn").addEventListener("click", () => {
 	.then(logData) //mivel a válasz is egy promise-al tér vissza, rátehetek mégegy then-t, ami megint csinál valamit a válasszal --> kvázi ugyanaz mintha a 15. sorban a then után console.log(data)-t írnék
 });
 
-const handleLogButtonClick = (event) => {
-	console.log(event);
+const handleLogButtonClick = () => {
 	console.log("Log clicked")
 }
 
