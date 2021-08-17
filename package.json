@@ -1,0 +1,22 @@
+{
+  "name": "async_await_codecool_session_20210817",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/annasoos/async_await_codecool_session_20210817.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/annasoos/async_await_codecool_session_20210817/issues"
+  },
+  "homepage": "https://github.com/annasoos/async_await_codecool_session_20210817#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
