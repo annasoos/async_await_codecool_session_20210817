@@ -6,7 +6,9 @@ document.getElementById("reqBtn").addEventListener("click", () => {
 	request.onload = function (e) {
 		if (request.readyState === 4) {
 			if (request.status === 200) {
-				console.log(request.responseText);
+				console.log(request.responseText)
+			} else {
+				console.error(request.statusText)
 			}
 		}
 	}
