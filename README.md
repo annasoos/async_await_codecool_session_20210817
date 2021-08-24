@@ -1,1 +1,3 @@
-# async_await_codecool_session_20210817
+# Async-Await practice - Codecool session 2021.08.17
+
+Mentoring session - practicing HTTP GET requests
